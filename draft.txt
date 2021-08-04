@@ -1,0 +1,19 @@
+class structure
+
+project -> toDoItem
+
+toDoItem
+- title
+- description
+- dueDate
+- prio
+
+
+
+html structure
+
+centered, taking about 60% of space
+
+- left vertical nav bar that contains all projects 20%
+- remaining space used to display toDoItems
+

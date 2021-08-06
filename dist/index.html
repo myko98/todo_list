@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="panels">
+        <div class="project-panel">Projects
+            <button class="addProject" type="button">Add Project</button>
+        </div>
+        <div class="main-panel">main</div>
+        <div class="note-panel">notes</div>
+    </div>
 
-    
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <label for="projectName">Project Name</label>
+            <br>
+            <input type="text" name="projectName" id="projectName">
+            <br>
+            <label for="projectDescription">Project Description</label>
+            <br>
+            <input type="text" name="projectDescription" id="projectDescription">
+        </div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>

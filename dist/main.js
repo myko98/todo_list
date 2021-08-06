@@ -1,1 +1,1 @@
-console.log("hi");
+(()=>{"use strict";document.querySelector(".addProject"),document.querySelector(".project-panel");let e=document.querySelector(".modal");const t=()=>{document.createElement("div"),e.classList.toggle("show-modal")};let c=document.querySelector(".addProject"),o=document.querySelector(".close-button");c.onclick=t,o.addEventListener("click",t)})();

@@ -48,14 +48,13 @@ table {
 }
 
 /* end of reset */
-
-
 .panels {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
 }
 
+/*Project Panel Stuff*/
 .project-panel {
     display:flex;
     flex-direction: column;
@@ -63,21 +62,32 @@ table {
     flex: 1 1 20%
 }
 
+/* - add project button*/
+.addProject {
+    width: 100px;
+}
+
+
+/*Main Panel Stuff*/
 .main-panel {
+    display:flex;
+    flex-direction: column;
     background-color: blue;
     flex: 1 1 50%
 }
 
+/* - add task button*/
+.addTask {
+    width: 100px;
+}
+
+/*Note Panel Stuff*/
 .note-panel {
     background-color: green;
     flex: 1 1 30%
 }
 
-/* add project button*/
-.addProject {
-    width: 100px;
 
-}
 
 
 
@@ -125,11 +135,6 @@ table {
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity  0.25s 0s, transform 0.25s;
 }
-
-/* #projectDescription {
-    height: 50px;
-    width: 100%;
-} */
 
 input[type] {
     width: 100%;

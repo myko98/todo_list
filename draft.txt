@@ -22,6 +22,7 @@ centered, taking about 60% of space
 create front end components first, then JS classes n shit
 today will create flex box to store projects-panel (left), main-panel(middle), and notes(right);
 
+---------------------------------------------------------------------------------------------------
 08.05
 objectives
 - create flex box containers (DONE)
@@ -32,3 +33,12 @@ https://sabe.io/tutorials/how-to-create-modal-popup-box
 - added modal popup to add project info!
 - created textbox for projectname and description for modal
 
+---------------------------------------------------------------------------------------------------
+08.06
+objectives
+- add apply, cancel button for modal  (DONE)
+- add logic for apply button to create project div on project panel (DONE)
+
+additional stuff done
+- created todolist class in seperate js file (barebones)
+- created add task button that creates input box and select dropdown!

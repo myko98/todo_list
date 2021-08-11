@@ -42,3 +42,21 @@ objectives
 additional stuff done
 - created todolist class in seperate js file (barebones)
 - created add task button that creates input box and select dropdown!
+
+--------------------------------------------------------------------------------------------------
+08/09
+objectives
+- compete todolist object (add due date)
+- connect todolist object with class?
+
+things ive learned
+- https://stackoverflow.com/questions/35667267/addeventlistenerclick-firing-immediately
+addEventlistener function() { my function}, not sure how to explain, but this stops funcitno from immediately running 
+
+--------------------------------------------------------------------------------------------------
+08/10
+objectives
+- finish changing toDo items when changing projects
+- start notes section
+    - add note that has certain height, (but width is 100%)
+    - every project has its own notes that will change

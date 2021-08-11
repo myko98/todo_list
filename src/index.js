@@ -11,13 +11,14 @@ let addTaskButton = document.querySelector(".addTask");
 
 
 
-
-projectButton.onclick = openModal
+projectButton.onclick = openModal;
+// projectButton.addEventListener("click",addClass);
 closeButton.addEventListener("click",openModal);
 modalCancel.onclick = openModal;
 modalSubmit.onclick = addProject;
 
-let item = new toDoItem("walking cat", "at night", "high", "today");
-console.log(item);
 
 addTaskButton.onclick = addTask;
+
+
+//create default project

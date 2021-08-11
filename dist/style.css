@@ -67,6 +67,9 @@ table {
     width: 100px;
 }
 
+.projects {
+    cursor: pointer;
+}
 
 /*Main Panel Stuff*/
 .main-panel {
@@ -81,10 +84,22 @@ table {
     width: 100px;
 }
 
+/* - setting width for date input */
+input[type="date"] {
+    max-width: 10%;
+}
+
 /*Note Panel Stuff*/
 .note-panel {
+    display: flex;
+    flex-direction: column;
     background-color: green;
-    flex: 1 1 30%
+    flex: 1 1 30%;
+
+}
+
+.addNote {
+    width: 100px;
 }
 
 
